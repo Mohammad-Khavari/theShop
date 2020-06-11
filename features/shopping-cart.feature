@@ -11,7 +11,7 @@ Given I have an empty cart
 When I add an item to the cart
 Then the cart should have the item
 
-Scenario Outline Validate cart content and total
+Scenario Outline: Validate cart content and total
 """
 Validates the content in the cart including total price
 """

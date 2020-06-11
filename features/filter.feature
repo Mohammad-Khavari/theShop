@@ -2,7 +2,7 @@
 Feature: Filter
 This feature has different filter scenarios
 
-Scenario Outline Brand filter
+Scenario Outline: Brand filter
 """
 Checks brand filter functionality
 """

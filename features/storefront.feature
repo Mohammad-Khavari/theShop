@@ -1,5 +1,5 @@
 @Browse
-Feature: Browse item
+Feature: Storefront
 This feature has different browse scenarios
 
 Scenario: Browse item details
@@ -10,7 +10,7 @@ Given I am at the store
 When I click on an item
 Then the item description should show
 
-Scenario Outline Browse item details from data
+Scenario Outline: Browse item details from data
 """
 Browse an item in the store data-driven
 """
