@@ -1,3 +1,4 @@
+@Cart
 Feature: Shopping Cart
 This feature has different shopping cart scenarios
 

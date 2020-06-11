@@ -1,3 +1,4 @@
+@Browse
 Feature: Browse item
 This feature has different browse scenarios
 

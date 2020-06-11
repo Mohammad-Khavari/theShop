@@ -1,3 +1,4 @@
+@Filter
 Feature: Filter
 This feature has different filter scenarios
 

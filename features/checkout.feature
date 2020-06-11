@@ -1,3 +1,4 @@
+@Checkout
 Feature: Checkout
 This feature has different checkout scenarios
 
@@ -14,7 +15,7 @@ Then the checkout form should show
 Scenario: Approve order
 """
 Validate that an order can be approved
-“""
+"""
 
 Given I have an empty cart
 and I add an item to the cart
@@ -25,7 +26,7 @@ Then the order should show as approved
 Scenario Outline: Order totals
 """
 Validate that the order totals are correct
-“""
+"""
 
 Given I have an empty cart
 and I checkout the item
