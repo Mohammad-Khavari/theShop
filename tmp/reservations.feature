@@ -23,7 +23,7 @@ Validates room rates and tax calculations
 https://www.hilton.com/en/book/reservation/rooms/?arrivaldate=20200107&ctyhocn=HNLWAHF&departuredate=20200108&numRooms=3&redeemPts=true&room1NumAdults=1&room2NumAdults=1&room3NumAdults=1”
 """
 
-Given I visit “https://www.hilton.com/en/book/reservation/rooms/?arrivaldate=20200107&ctyhocn=HNLWAHF&departuredate=20200108&numRooms=3&redeemPts=true&room1NumAdults=1&room2NumAdults=1&room3NumAdults=1”
+Given I visit "https://www.hilton.com/en/book/reservation/rooms/?arrivaldate=20200107&ctyhocn=HNLWAHF&departuredate=20200108&numRooms=3&redeemPts=true&room1NumAdults=1&room2NumAdults=1&room3NumAdults=1"
 When I click on “flexible dates button”
 And I find the best available dates
 And click on the rates
