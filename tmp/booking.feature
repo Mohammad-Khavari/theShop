@@ -1,10 +1,11 @@
-@CBooking
+@Booking
 Feature: Booking
 This feature has room booking scenarios
 
+@Taxes
 Scenario Outline: Check specific booking calculations
 """
-Validate that some spefific hotels and room configurations are correct
+Validate that tax rate is right for a specific city, hotel and room configurations
 """
 Given I search for city <city>
 and I pick hotel <hotel>
