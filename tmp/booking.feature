@@ -1,5 +1,5 @@
 @Booking
-Feature: Booking
+Feature: Booking Management
 This feature has room booking scenarios
 
 @Taxes
