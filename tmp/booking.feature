@@ -12,6 +12,7 @@ and I pick hotel <hotel>
 When I book the room <room>
 Then the tax rate should be <tax>
 
-|city   |hotel                                       |room                             |tax  |
-|Chicago|Hilton Garden Inn Chicago Downtown Riverwalk|1 King Bed                       |0.174|
-|Florida|Hampton Inn Spring Hill                     |1 Queen Bed Nonsmoking Quick Look|0.115|
+|city   |hotel                                       |room                  |tax  |
+|Chicago|Hilton Garden Inn Chicago Downtown Riverwalk|1 King Bed            |0.174|
+|Florida|Hampton Inn Spring Hill                     |1 Queen Bed Nonsmoking|0.115|
+|Seattle|Hilton Bellevue                             |1 King bed Hogh Floor |0.101|
