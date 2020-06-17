@@ -9,8 +9,7 @@ Validate that tax rate is right for a specific city, hotel and room configuratio
 """
 Given I search for city <city>
 and I pick hotel <hotel>
-and I pick room <room>
-When I book the room
+When I book the room <room>
 Then the tax rate should be <tax>
 
 |city   |hotel                                       |room                             |tax  |
