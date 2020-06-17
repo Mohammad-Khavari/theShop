@@ -9,7 +9,6 @@ Validate that the order summary is correct
 https://www.hilton.com/en/book/group/rooms/?arrivalDate=20200919&ctyhocn=ABQEMES&departureDate=20200920&numRooms=10
 
 """
-
 Given that I am on the 10+ Rooms page
 When I want to understand the rooms I have selected and estimated cost
 Then display the Order summary on the right rail
