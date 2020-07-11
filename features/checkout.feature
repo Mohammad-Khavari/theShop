@@ -29,12 +29,11 @@ Validate that the order totals are correct
 """
 
 Given I have an empty cart
-and I checkout the item
+and I checkout an <item>
 When I fill the checkout form
 Then the order should show as approved
 and the order totals should be <price>
 
 Examples:
-|item   |price|
-|jacket|1999|
-|jblouse|1999|
+|item           |price   |
+|Estelle T-shirt|2,799.00|

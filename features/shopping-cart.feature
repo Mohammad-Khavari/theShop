@@ -22,6 +22,6 @@ Then the cart should have the item <item>
 and the cart totals should be <price>
 
 Examples:
-|item   |price|
-|jacket|1999|
-|jblouse|1999|
+|item                     |price   |
+|Alleviater Casual Trouser|1,699.00|
+|Melange Dress            |3,499.00|

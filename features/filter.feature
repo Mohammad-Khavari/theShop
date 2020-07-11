@@ -12,5 +12,6 @@ When I add filter <filter>
 Then the items <items> should show
 
 Examples:
-|filter   |items|
-|filterA|jacket,alibaba|
+|filter   |items                           |
+|Freecultr|[Freecultr Tee, Freecultr Shirt]|
+|Estelle  |[Estelle T-shirt]               |

@@ -20,5 +20,5 @@ When I click on an item <item>
 Then the item description should be <description>
 
 Examples:
-|item   |description|
-|filterA|jacket,alibaba|
+|item                      |description                              |
+|John Jacobs Casual Trouser|This is a Casual Trouser from John Jacobs|
