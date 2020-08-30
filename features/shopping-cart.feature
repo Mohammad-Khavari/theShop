@@ -25,3 +25,4 @@ Examples:
 |item                     |price   |
 |Alleviater Casual Trouser|1,699.00|
 |Melange Dress            |3,499.00|
+|Melange Dress            | -1.00  |
