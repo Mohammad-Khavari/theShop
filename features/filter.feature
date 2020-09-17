@@ -29,3 +29,17 @@ Then the items  "filter1", "filter2" and <filter> should show
 Examples:
 |filter   |
 |filter3|
+
+
+Scenario Outline: Test invalid map
+"""
+Checks brand filter functionality
+"""
+
+Given I have filter
+When I add filter two filters
+Then the items <colA> and <colB> should be show
+
+Examples:
+|colA   |colB|
+|a      |b   |
