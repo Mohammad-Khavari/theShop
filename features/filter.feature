@@ -43,3 +43,17 @@ Then the items <colA> and <colB> should be show
 Examples:
 |colA   |colB|
 |a      |b   |
+
+
+Scenario Outline: Test named parameter
+"""
+Checks brand filter functionality
+"""
+
+Given I have filter
+When I add filter two filters
+Then the items <colA>, <colB>, and "c" (#colC) should be shown
+
+Examples:
+|colA   |colB|
+|a      |b   |
