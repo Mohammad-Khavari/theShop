@@ -1,6 +1,9 @@
 @Fail
 Feature: Fail
 This feature has different Fail
+
+Scenario: TCS 194
+
 Given A contact is created with the contact services API
 And I am logged in as frontoffice in IDIT
 When I create a <offer> for <product> acquisition for the contact
